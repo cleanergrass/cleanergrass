@@ -1,0 +1,81 @@
+.hero-banner {
+    background-image: url('/images/JaimeYard#4.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-color: #35654d;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    box-sizing: border-box;
+    border-top-right-radius: 25px; /* Round the right edge */
+    border-top-left-radius: 25px; /* Round the left edge */
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 24px;
+}
+
+nav {
+    background-color: #9bc995;
+    color: #9bc995;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    border-bottom-left-radius: 14.5px;
+    border-bottom-right-radius: 14.5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a:hover {
+    color: white;
+}
+
+.account-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-icon {
+    background-image: url('/images/CG_Logo_#2.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}
